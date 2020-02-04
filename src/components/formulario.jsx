@@ -12,29 +12,6 @@ let styles = {
     textAlign: 'middle',
 };
 
-let licenseType = {
-    A: "A",
-    B: "B",
-    C: "C",
-    D: "D",
-    E: "E",
-    F: "F"
-};
-
-let vehicleType = {
-    0: "Sin especificar",
-    1: "Camioneta de 1.5 toneladas",
-    2: "Camioneta de 3.5 toneladas",
-    3: "Camioneta de 5.5 toneladas",
-    4: "Rabon con caja seca",
-    5: "Rabon con caja refrigerada",
-    6: "Torton con caja seca",
-    7: "Torton con caja refrigerada",
-    9: "Trailer de 48 ft con caja seca",
-    10: "Trailer de 48 ft con caja refrigerada",
-    11: "Trailer de 53ft con caja seca",
-    12: "Trailer de 53ft con caja refrigerada"
-};
 
 class Formulario extends React.Component {
     constructor(props) {
